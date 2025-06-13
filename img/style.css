@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#pag1 {
+    width: 100%;
+    height: 93vh;
+    background-image: url(img/home-banner.jpg.webp);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.buttons_header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+    font-size: 13px;
+
+}
+
+.buttons_header a:first-child{
+    color: #fcdc00;
+}
+
+.buttons_header {
+    margin-left: 27%;
+
+}
+
+.buttons_header a:hover {
+    text-decoration: none;
+    color: #fcdc00;
+    font-family: "Poppins", sans-serif;
+    margin-left: 30px;
+}
+
+
+.parte_preta {
+    background-color: #000000;
+    width: 550px;
+    margin: auto;
+    height: 25vh;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.txt1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+    padding: 30px;
+}
+
+.txt2 {
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+
+}
+
+.parte_amarelinha {
+    background-color: #fcdc00;
+    width: 10%;
+    height: 5vh;
+    margin-left: 45%;
+    margin-top: -1.5%;
+}
+
+.txt3 {
+    font-size: 14px;
+    text-align: center;
+    line-height: 5vh;
+    font-family: "Poppin", sans-serif;
+    font-weight: 600;
+
+}
+
+#monte_de_foto{
+    width: 100%;
+    height: 200vh;
+
+}
+.retangulo_frufruzado{
+    background-color: #fff;
+    width: 60%;
+    height: 6vh;
+    border: 1px solid #eeeeee;
+    margin-top: 13vh;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eeeeee;
+
+}
+
+.retangulo_frufruzado a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Poppins",sans-serif;
+    color: #000000;
+    padding: 20px;
+    border-right: 1px solid #eeeeee;
+}
+
+.retangulo_frufruzado a:hover{
+    background-color: #fcdc00;
+    position: relative;
+ 
+    transition: all 0.5s;
+}
+.retangulo_frufruzado a:first-child{
+    background-color:#fcdc00;
+}
+
+.linhaimgs1{
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 20px;             
+    padding: 20px;  
+    margin-top: 8vh;         
+      
+}
+
+
+
+.linhaimgs2{
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 20px;             
+    padding: 20px;  
+}
+.linhaimgs3{
+    display: flex;
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 20px;             
+    padding: 20px;  
+}
+
+.retangulo_dviado{
+    width: 10%;
+    height: 5vh;
+    background-color: #fcdc00;
+    margin-left: 45%;
+    margin-top: 10vh;
+}
+
+.retangulo_dviado p{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: bold;
+    padding: 13px 24px;
+}
+
+#parte_amarelinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 55vh;
+    background-color: #fcdc00;
+    padding-top: 1px;
+}
+
+.div_esquerda{
+    width: 30%;
+    height: 20vh;
+}
+.div_esquerda h1{
+    font-family: "poppins",sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin-top: 4vh;
+
+
+}
+
+.div_esquerda p{
+    font-family: "poppins",sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-top: 15px; 
+}
+
+.div_direita{
+    width: 30%;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.div_direita img {
+    height: 80px;
+    width: 80px;
+}
+
+.fds1 p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #777777;
+}
+
+.fds1 h2{
+    font-weight: bold;
+    color: #222222;
+    font-size: 18px;
+    margin-top: 7px;
+    font-family: "Poppins", sans-serif;
+}
+
+.parte_krlhuda {
+    display: flex;
+    width: 100%;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+}
+
+#parte_minescraft{
+    display: flex;
+    width: 100%;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#parte_minescraft p{
+    font-size: 14px; 
+}
+
+#parte_minescraft .ahahaha{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ahahaha div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    width: 30%;
+}
+
+.ttl_pmine{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    align-items: center;
+}
+
+.ttl_pmine h2{
+    color: #222222;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.ttl_pmine p{
+    color: #777777;
+    font-size: 14px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    font-weight: 300;
+    padding: 10px;
+}
+.qtxt1{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt1 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt1:hover{
+    background-color: #fcdc00;
+
+}
+
+.qtxt2{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt2 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt2:hover{
+    background-color: #fcdc00;
+
+}
+
+.qtxt3{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt3 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt3:hover{
+    background-color: #fcdc00;
+
+}
+
+.qtxt4{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt4 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt4:hover{
+    background-color: #fcdc00;
+
+}
+
+.qtxt5{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt5 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt5:hover{
+    background-color: #fcdc00;
+
+}
+.qtxt6{
+    border: 1px solid #eeeeee; 
+    width: 20%;
+    height: 20vh;
+    text-align: center;
+    padding: 40px;
+}
+
+.qtxt6 h4{
+    margin-bottom: 20px;
+}
+
+.qtxt6:hover{
+    background-color: #fcdc00;
+
+}
+
+.ahahaha{
+    transition: all 300ms ease;
+}
+
+.retangulo_amarelin{
+    width: 13%;
+    height: 6vh;
+    background-color: #fcdc00;
+}
+
+.retangulo_amarelin a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    padding:  0px 28px;
+    line-height: 60px;
+    color: #000000;
+    
+}
+
+
